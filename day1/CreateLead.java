@@ -24,7 +24,7 @@ public class CreateLead {
 		
 		driver.findElement(By.id("createLeadForm_firstNameLocal")).sendKeys("RL"); 
 		driver.findElement(By.name("departmentName")).sendKeys("CSE");
-		driver.findElement(By.id("createLeadForm_description")).sendKeys("this is code to create lead");
+		driver.findElement(By.id("createLeadForm_description")).sendKeys("To create a lead Page");
 		
 		
 		driver.findElement(By.id("createLeadForm_primaryEmail")).sendKeys("logeshwari261997@gmail.com");
