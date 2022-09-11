@@ -23,7 +23,7 @@ public class DuplicateLead {
 		driver.findElement(By.id("createLeadForm_lastName")).sendKeys("Ravichandran");
 		driver.findElement(By.id("createLeadForm_firstNameLocal")).sendKeys("RL");//click 
 		driver.findElement(By.name("departmentName")).sendKeys("CSE");
-		driver.findElement(By.id("createLeadForm_description")).sendKeys("this is code to create duplicate lead");
+		driver.findElement(By.id("createLeadForm_description")).sendKeys("To create a duplicate lead Page");
 		driver.findElement(By.id("createLeadForm_primaryEmail")).sendKeys("logeshwari261997@gmail.com");
 		driver.findElement(By.name("submitButton")).click();
 		
